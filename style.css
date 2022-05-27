@@ -32,9 +32,6 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-new__row {
-  display: flex;
-}
 .tasks__group {
   margin: 0;
   padding: 0px;
@@ -56,8 +53,7 @@
   color: #3a3a3a;
 }
 /* Heading */
-.tasks__group-name,
-.task-new__label {
+.tasks__group-name {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -83,9 +79,13 @@
 }
 
 /* New Task */
-.task-new__label {
+.tasks__group-name_new {
   display: block;
   margin: 0 0 20px;
+}
+.task.task_new {
+  padding: 0;
+  border-bottom: 0;
 }
 
 /* Task list */
