@@ -79,11 +79,14 @@
 }
 
 /* New Task */
-.tasks__group-name_new {
+.tasks__new {
+  margin: 16px 0;
+}
+.tasks__new .tasks__group-name {
   display: block;
   margin: 0 0 20px;
 }
-.task.task_new {
+.tasks__new .task {
   padding: 0;
   border-bottom: 0;
 }
