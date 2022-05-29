@@ -79,9 +79,6 @@
 }
 
 /* New Task */
-.tasks__new {
-  margin: 16px 0;
-}
 .tasks__new .tasks__group-name {
   display: block;
   margin: 0 0 20px;
