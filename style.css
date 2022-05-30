@@ -37,10 +37,10 @@
   padding: 0px;
 }
 .task__input,
-.task__button{
+.task__btn {
   outline: none;
 }
-.task__button {
+.task__btn {
   background: none;
   border: 0px;
   color: #888;
@@ -49,7 +49,7 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.task__button:hover {
+.task__btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
