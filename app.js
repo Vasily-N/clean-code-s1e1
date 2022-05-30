@@ -20,6 +20,7 @@ const classes = { btn: "task__btn",
                 editMode: "task_edit",
 
 };
+const deleteBtnAlt = "Delete";
 
 //New task list item
 var createNewTaskElement=function(taskString){
@@ -55,6 +56,7 @@ var createNewTaskElement=function(taskString){
     deleteButton.className=`${classes.btn} ${classes.btnDelete}`;;
     deleteButtonImg.className="task__img-delete";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.alt=deleteBtnAlt;
     deleteButton.appendChild(deleteButtonImg);
 
 
