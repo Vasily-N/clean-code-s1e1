@@ -10,7 +10,7 @@
 
 var taskInput=document.querySelector(".task__input_new");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.querySelector(".task__group_incomplete");//ul of #incompleteTasks
+var incompleteTaskHolder=document.querySelector(".tasks__group_incomplete");//ul of #incompleteTasks
 var completedTasksHolder=document.querySelector(".tasks__group_complete");//completed-tasks
 
 const classes = { edit: "task__button_edit",
